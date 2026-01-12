@@ -51,6 +51,10 @@ This overview transforms the Backend Bible from a collection of topics into a un
 
 ### 1. Networking & The Journey of a Request
 
+> **📖 [Start Here: Section 1 Introduction](./01-the-networking/start-here.md)** - Begin your networking journey with the roadmap and learning objectives.
+>
+> **📖 [Module 0: Foundations](./01-the-networking/00-foundations.md)** - OSI vs TCP/IP, the 3 layers that matter (L3, L4, L7), and debugging with ping, nc, curl.
+
 * **1.1 Request Lifecycle Deep Dive:** From `curl api.stripe.com` to response - DNS resolution, TCP handshake, TLS negotiation, and HTTP exchange.
 * **1.2 Network Topology:** Browser → ISP → Internet backbone → CDN/Load Balancer → Application server (with real latency numbers).
 * **1.3 HTTP Fundamentals:** Protocol mechanics, request/response anatomy, and why "stateless" matters for scalability.
